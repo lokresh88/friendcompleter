@@ -34,5 +34,5 @@ function doWallPost() {
      to: $('input#fbFriendId').val()
     }
   );
-  return false;
+  // return false; // Having this seems to make the dialog keep popping
 }
